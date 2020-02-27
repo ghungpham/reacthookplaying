@@ -1,0 +1,26 @@
+{
+  "name": "reacthookplaying",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ghungpham/reacthookplaying.git",
+  "author": "ghungpham <pham.ghungj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+},
+
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3"
+  },
+
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
